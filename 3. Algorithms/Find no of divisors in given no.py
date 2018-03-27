@@ -18,7 +18,7 @@ for p in primes :
         break
     count = 1
     while N%p==0:
-        N = N/p
+        N = N//p
         count = count + 1
     ans = ans * count
 if N in primes:
