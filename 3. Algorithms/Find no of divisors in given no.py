@@ -12,6 +12,7 @@ primes = {}
 for i in range(2,200000): 
     if a[i] == 0: 
         primes[i] = True 
+        
 ans = 1
 for p in primes :
     if p*p*p > N:
@@ -21,10 +22,12 @@ for p in primes :
         N = N//p
         count = count + 1
     ans = ans * count
-if N in primes:
-    ans = ans * 2
-elif math.sqrt(N) in primes:
-    ans = ans * 3
-elif N != 1:
-    ans = ans * 4
+
+if N!=1:
+    if N in primes:
+        ans = ans * 2
+    elif math.sqrt(N) in primes:
+        ans = ans * 3
+    else:
+        ans = ans * 4
 print(ans-1)
