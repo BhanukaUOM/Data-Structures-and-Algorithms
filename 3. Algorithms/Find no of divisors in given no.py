@@ -31,3 +31,5 @@ if N!=1:
     else:
         ans = ans * 4
 print(ans-1)
+
+#ref: http://codeforces.com/blog/entry/22317
