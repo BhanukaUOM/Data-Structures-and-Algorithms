@@ -21,3 +21,27 @@ static void DFS(boolean[][] arr,int n, int u, int w,boolean[] visited){
         }
     }
 }
+
+public static void main(String[] args) {
+    Scanner in = new Scanner(System.in);
+    int n = in.nextInt();
+    boolean[][] arr = new boolean[n][n];
+
+    int t = in.nextInt();
+    for(int i=0; i<t; i++){
+        int u = in.nextInt();
+        int w = in.nextInt();
+        arr[u][w] = true;
+        arr[w][u] = true;
+    }
+
+    t = in.nextInt();
+    for(int i=0; i<t; i++){
+        int u = in.nextInt();
+        int w = in.nextInt();
+        if(is_connect(arr,n,u,w))
+            System.out.println("IS_CONNECTED");
+        else
+            System.out.println("NOT_CONNECTED");
+    }
+}
