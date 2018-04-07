@@ -1,3 +1,5 @@
+import math
+
 n = 100001
 
 div_sum = [0 for i in range(n)]
