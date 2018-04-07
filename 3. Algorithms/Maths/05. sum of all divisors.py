@@ -10,4 +10,4 @@ for i in range(2, n):
             if p!=i:
                 div_sum[i] += j + p
             else:
-div_sum[i] += j
+                div_sum[i] += j
