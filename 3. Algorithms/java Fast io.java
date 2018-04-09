@@ -155,11 +155,12 @@ public class Solution {
         
         
         int n = in.nextInt();  
-		int t = in.nextInt();  		
+	int t = in.nextInt(); 
+	
         for(int i=0; i<t; i++){
             int tmp = in.nextInt();
             out.println(tmp);
         }
-		out.close();
+	out.close();
     }
 }
