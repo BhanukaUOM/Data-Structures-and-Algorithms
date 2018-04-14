@@ -17,196 +17,6 @@ import java.util.*;
  * @author Bhanuka Rathnayaka
  */
 public class Main {
-    public static void main(String[] args) {
-        InputStream inputStream = System.in;
-        OutputStream outputStream = System.out;
-        input in = new input(inputStream);
-        output out = new output(outputStream);
-        Solution solver = new Solution();
-        solver.solve(in, out);
-        out.close();
-    }
-
-    static class Solution {
-        private void solve(input in, output out) {
-            
-        }
-
-        private int in(int[] nums, int target) {
-            for (int i = 0; i < nums.length; i++)
-                if (nums[i] == target)
-                    return i;
-            return -1;
-        }
-
-        private int in(long[] nums, long target) {
-            for (int i = 0; i < nums.length; i++)
-                if (nums[i] == target)
-                    return i;
-            return -1;
-        }
-
-        private int in(char[] nums, char target) {
-            for (int i = 0; i < nums.length; i++)
-                if (nums[i] == target)
-                    return i;
-            return -1;
-        }
-
-        private int in(String[] nums, String target) {
-            for (int i = 0; i < nums.length; i++)
-                if (nums[i].equals(target))
-                    return i;
-            return -1;
-        }
-
-        private int in(double[] nums, double target) {
-            for (int i = 0; i < nums.length; i++)
-                if (nums[i] == target)
-                    return i;
-            return -1;
-        }
-
-        private int in(float[] nums, float target) {
-            for (int i = 0; i < nums.length; i++)
-                if (nums[i] == target)
-                    return i;
-            return -1;
-        }
-
-        private int sum(int[] arr){
-            int total = 0;
-            for (int i = 0; i < arr.length; i++)
-                total += arr[i];
-            return total;
-        }
-
-        private long sum(long[] arr){
-            long total = 0;
-            for (int i = 0; i < arr.length; i++)
-                total += arr[i];
-            return total;
-        }
-
-        private float sum(float[] arr){
-            float total = 0;
-            for (int i = 0; i < arr.length; i++)
-                total += arr[i];
-            return total;
-        }
-
-        private double sum(double[] arr){
-            double total = 0;
-            for (int i = 0; i < arr.length; i++)
-                total += arr[i];
-            return total;
-        }
-
-        private int min(int num1, int num2){
-            if(num1>=num2)
-                return num2;
-            return num1;
-        }
-
-        private long min(long num1, long num2){
-            if(num1>num2)
-                return num2;
-            return num1;
-        }
-
-        private float min(float num1, float num2){
-            if(num1>num2)
-                return num2;
-            return num1;
-        }
-
-        private double min(double num1, double num2){
-            if(num1>num2)
-                return num2;
-            return num1;
-        }
-
-        private int min(int[] arr){
-            int minimum = arr[0];
-            for (int i = 1; i < arr.length; i++)
-                min(arr[i-1], arr[i]);
-            return minimum;
-        }
-
-        private long min(long[] arr){
-            long minimum = arr[0];
-            for (int i = 1; i < arr.length; i++)
-                min(arr[i-1], arr[i]);
-            return minimum;
-        }
-
-        private float min(float[] arr){
-            float minimum = arr[0];
-            for (int i = 1; i < arr.length; i++)
-                min(arr[i-1], arr[i]);
-            return minimum;
-        }
-
-        private double min(double[] arr){
-            double minimum = arr[0];
-            for (int i = 1; i < arr.length; i++)
-                min(arr[i-1], arr[i]);
-            return minimum;
-        }
-
-        private int max(int num1, int num2){
-            if(num1<=num2)
-                return num2;
-            return num1;
-        }
-
-        private long max(long num1, long num2){
-            if(num1<num2)
-                return num2;
-            return num1;
-        }
-
-        private float max(float num1, float num2){
-            if(num1<num2)
-                return num2;
-            return num1;
-        }
-
-        private double max(double num1, double num2){
-            if(num1<num2)
-                return num2;
-            return num1;
-        }
-
-        private int max(int[] arr){
-            int maximum = arr[0];
-            for (int i = 1; i < arr.length; i++)
-                max(arr[i-1], arr[i]);
-            return maximum;
-        }
-
-        private long max(long[] arr){
-            long maximum = arr[0];
-            for (int i = 1; i < arr.length; i++)
-                max(arr[i-1], arr[i]);
-            return maximum;
-        }
-
-        private float max(float[] arr){
-            float maximum = arr[0];
-            for (int i = 1; i < arr.length; i++)
-                max(arr[i-1], arr[i]);
-            return maximum;
-        }
-
-        private double max(double[] arr){
-            double maximum = arr[0];
-            for (int i = 1; i < arr.length; i++)
-                max(arr[i-1], arr[i]);
-            return maximum;
-        }
-    }
-
     static class output {
         private final PrintWriter writer;
 
@@ -453,6 +263,197 @@ public class Main {
             } catch (IOException e) {
                 e.printStackTrace();
             }
+        }
+    }
+    
+    public static void main(String[] args) {
+        InputStream inputStream = System.in;
+        OutputStream outputStream = System.out;
+        input in = new input(inputStream);
+        output out = new output(outputStream);
+        Solution solver = new Solution();
+        solver.solve(in, out);
+        out.close();
+    }
+
+    static class Solution {
+        private int in(int[] nums, int target) {
+            for (int i = 0; i < nums.length; i++)
+                if (nums[i] == target)
+                    return i;
+            return -1;
+        }
+
+        private int in(long[] nums, long target) {
+            for (int i = 0; i < nums.length; i++)
+                if (nums[i] == target)
+                    return i;
+            return -1;
+        }
+
+        private int in(char[] nums, char target) {
+            for (int i = 0; i < nums.length; i++)
+                if (nums[i] == target)
+                    return i;
+            return -1;
+        }
+
+        private int in(String[] nums, String target) {
+            for (int i = 0; i < nums.length; i++)
+                if (nums[i].equals(target))
+                    return i;
+            return -1;
+        }
+
+        private int in(double[] nums, double target) {
+            for (int i = 0; i < nums.length; i++)
+                if (nums[i] == target)
+                    return i;
+            return -1;
+        }
+
+        private int in(float[] nums, float target) {
+            for (int i = 0; i < nums.length; i++)
+                if (nums[i] == target)
+                    return i;
+            return -1;
+        }
+
+        private int sum(int[] arr){
+            int total = 0;
+            for (int i = 0; i < arr.length; i++)
+                total += arr[i];
+            return total;
+        }
+
+        private long sum(long[] arr){
+            long total = 0;
+            for (int i = 0; i < arr.length; i++)
+                total += arr[i];
+            return total;
+        }
+
+        private float sum(float[] arr){
+            float total = 0;
+            for (int i = 0; i < arr.length; i++)
+                total += arr[i];
+            return total;
+        }
+
+        private double sum(double[] arr){
+            double total = 0;
+            for (int i = 0; i < arr.length; i++)
+                total += arr[i];
+            return total;
+        }
+
+        private int min(int num1, int num2){
+            if(num1>=num2)
+                return num2;
+            return num1;
+        }
+
+        private long min(long num1, long num2){
+            if(num1>num2)
+                return num2;
+            return num1;
+        }
+
+        private float min(float num1, float num2){
+            if(num1>num2)
+                return num2;
+            return num1;
+        }
+
+        private double min(double num1, double num2){
+            if(num1>num2)
+                return num2;
+            return num1;
+        }
+
+        private int min(int[] arr){
+            int minimum = arr[0];
+            for (int i = 1; i < arr.length; i++)
+                min(arr[i-1], arr[i]);
+            return minimum;
+        }
+
+        private long min(long[] arr){
+            long minimum = arr[0];
+            for (int i = 1; i < arr.length; i++)
+                min(arr[i-1], arr[i]);
+            return minimum;
+        }
+
+        private float min(float[] arr){
+            float minimum = arr[0];
+            for (int i = 1; i < arr.length; i++)
+                min(arr[i-1], arr[i]);
+            return minimum;
+        }
+
+        private double min(double[] arr){
+            double minimum = arr[0];
+            for (int i = 1; i < arr.length; i++)
+                min(arr[i-1], arr[i]);
+            return minimum;
+        }
+
+        private int max(int num1, int num2){
+            if(num1<=num2)
+                return num2;
+            return num1;
+        }
+
+        private long max(long num1, long num2){
+            if(num1<num2)
+                return num2;
+            return num1;
+        }
+
+        private float max(float num1, float num2){
+            if(num1<num2)
+                return num2;
+            return num1;
+        }
+
+        private double max(double num1, double num2){
+            if(num1<num2)
+                return num2;
+            return num1;
+        }
+
+        private int max(int[] arr){
+            int maximum = arr[0];
+            for (int i = 1; i < arr.length; i++)
+                max(arr[i-1], arr[i]);
+            return maximum;
+        }
+
+        private long max(long[] arr){
+            long maximum = arr[0];
+            for (int i = 1; i < arr.length; i++)
+                max(arr[i-1], arr[i]);
+            return maximum;
+        }
+
+        private float max(float[] arr){
+            float maximum = arr[0];
+            for (int i = 1; i < arr.length; i++)
+                max(arr[i-1], arr[i]);
+            return maximum;
+        }
+
+        private double max(double[] arr){
+            double maximum = arr[0];
+            for (int i = 1; i < arr.length; i++)
+                max(arr[i-1], arr[i]);
+            return maximum;
+        }
+        
+        
+        private void solve(input in, output out) {
+            
         }
     }
 }
