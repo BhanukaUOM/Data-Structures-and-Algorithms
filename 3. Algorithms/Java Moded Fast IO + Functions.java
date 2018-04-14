@@ -29,12 +29,7 @@ public class Main {
 
     static class Solution {
         private void solve(input in, output out) {
-            int t = in.nextInt();
-            for (int i = 0; i < t; i++) {
-                int n = in.nextInt();
-                out.print(n);
-            }
-            out.close();
+            
         }
 
         private int in(int[] nums, int target) {
@@ -80,28 +75,28 @@ public class Main {
         }
 
         private int sum(int[] arr){
-            int total = 0
+            int total = 0;
             for (int i = 0; i < arr.length; i++)
                 total += arr[i];
             return total;
         }
 
         private long sum(long[] arr){
-            long total = 0
+            long total = 0;
             for (int i = 0; i < arr.length; i++)
                 total += arr[i];
             return total;
         }
 
         private float sum(float[] arr){
-            float total = 0
+            float total = 0;
             for (int i = 0; i < arr.length; i++)
                 total += arr[i];
             return total;
         }
 
         private double sum(double[] arr){
-            double total = 0
+            double total = 0;
             for (int i = 0; i < arr.length; i++)
                 total += arr[i];
             return total;
