@@ -67,14 +67,29 @@ public class Main {
 		private long max(long[] arr){ long maximum=arr[0]; for (int i=1; i<arr.length; i++) max(arr[i-1], arr[i]); return maximum; } 
 		private float max(float[] arr){ float maximum=arr[0]; for (int i=1; i<arr.length; i++) max(arr[i-1], arr[i]); return maximum; } 
 		private double max(double[] arr){ double maximum=arr[0]; for (int i=1; i<arr.length; i++) max(arr[i-1], arr[i]); return maximum; } 
+		public int toInt(String str){ return Integer.parseInt(str);}
+		public int toInt(long num){ return (int)num;}
+		public int toInt(float num){ return (int)num;}
+		public int toInt(double num){ return (int)num;}
+		public double toDouble(String str){return Double.parseDouble(str);}
+		public double toDouble(int num){ return (double)num;}
+		public double toDouble(long num){ return (double)num;}
+		public double toDouble(float num){ return (double)num;}
+		public float toFloat(String str){return Float.parseFloat(str);}
+		public float toFloat(int num){ return (float)num;}
+		public float toFloat(long num){ return (float)num;}
+		public float toFloat(double num){ return (float)num;}
+		public long toLong(String str){return Long.parseLong(str);}
+		public long toLong(int num){ return (long)num;}
+		public long toLong(float num){ return (long)num;}
+		public long toLong(double num){ return (long)num;}
+		public String toString(int num){ return Integer.toString(num);}
+		public String toString(long num){ return Long.toString(num);}
+		public String toString(double num){ return Double.toString(num);}
+		public String toString(float num){ return Float.toString(num);}
 		
 		private void solve(input in, output out){
-			int t=in.nextInt();
-			for(int i=0; i<t; i++){
-				int n=in.nextInt();
-				out.println(n);
-			}
-			out.println(max(1,2));
+			
 		} 
 	} 
 }
