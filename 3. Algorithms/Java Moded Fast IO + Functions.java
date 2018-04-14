@@ -88,9 +88,9 @@ public class Main {
 		private String toString(double num){ return Double.toString(num);}
 		private String toString(float num){ return Float.toString(num);}
 		private int abs(int num){if(num>=0) return num; return -num;}
-		private long abs(long num){if(num>=0L) return num; return -num;}
-		private float abs(float num){if(num>=0.00) return num; return -num;}
-		private double abs(double num){if(num>=0.00) return num; return -num;}
+		private long abs(long num){return Math.abs(num);}
+		private float abs(float num){return Math.abs(num);}
+		private double abs(double num){return Math.abs(num);}
 		
 		private void solve(input in, output out){
 			
