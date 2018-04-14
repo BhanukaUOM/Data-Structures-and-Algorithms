@@ -67,26 +67,30 @@ public class Main {
 		private long max(long[] arr){ long maximum=arr[0]; for (int i=1; i<arr.length; i++) max(arr[i-1], arr[i]); return maximum; } 
 		private float max(float[] arr){ float maximum=arr[0]; for (int i=1; i<arr.length; i++) max(arr[i-1], arr[i]); return maximum; } 
 		private double max(double[] arr){ double maximum=arr[0]; for (int i=1; i<arr.length; i++) max(arr[i-1], arr[i]); return maximum; } 
-		public int toInt(String str){ return Integer.parseInt(str);}
-		public int toInt(long num){ return (int)num;}
-		public int toInt(float num){ return (int)num;}
-		public int toInt(double num){ return (int)num;}
-		public double toDouble(String str){return Double.parseDouble(str);}
-		public double toDouble(int num){ return (double)num;}
-		public double toDouble(long num){ return (double)num;}
-		public double toDouble(float num){ return (double)num;}
-		public float toFloat(String str){return Float.parseFloat(str);}
-		public float toFloat(int num){ return (float)num;}
-		public float toFloat(long num){ return (float)num;}
-		public float toFloat(double num){ return (float)num;}
-		public long toLong(String str){return Long.parseLong(str);}
-		public long toLong(int num){ return (long)num;}
-		public long toLong(float num){ return (long)num;}
-		public long toLong(double num){ return (long)num;}
-		public String toString(int num){ return Integer.toString(num);}
-		public String toString(long num){ return Long.toString(num);}
-		public String toString(double num){ return Double.toString(num);}
-		public String toString(float num){ return Float.toString(num);}
+		private int toInt(String str){ return Integer.parseInt(str);}
+		private int toInt(long num){ return (int)num;}
+		private int toInt(float num){ return (int)num;}
+		private int toInt(double num){ return (int)num;}
+		private double toDouble(String str){return Double.parseDouble(str);}
+		private double toDouble(int num){ return (double)num;}
+		private double toDouble(long num){ return (double)num;}
+		private double toDouble(float num){ return (double)num;}
+		private float toFloat(String str){return Float.parseFloat(str);}
+		private float toFloat(int num){ return (float)num;}
+		private float toFloat(long num){ return (float)num;}
+		private float toFloat(double num){ return (float)num;}
+		private long toLong(String str){return Long.parseLong(str);}
+		private long toLong(int num){ return (long)num;}
+		private long toLong(float num){ return (long)num;}
+		private long toLong(double num){ return (long)num;}
+		private String toString(int num){ return Integer.toString(num);}
+		private String toString(long num){ return Long.toString(num);}
+		private String toString(double num){ return Double.toString(num);}
+		private String toString(float num){ return Float.toString(num);}
+		private int abs(int num){if(num>=0) return num; return -num;}
+		private long abs(long num){if(num>=0L) return num; return -num;}
+		private float abs(float num){if(num>=0.00) return num; return -num;}
+		private double abs(double num){if(num>=0.00) return num; return -num;}
 		
 		private void solve(input in, output out){
 			
