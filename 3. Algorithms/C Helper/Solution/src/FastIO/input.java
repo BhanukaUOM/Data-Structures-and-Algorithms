@@ -1,4 +1,4 @@
-package FastIO;
+/*package FastIO;
 
 import java.io.*;
 
@@ -180,4 +180,4 @@ public class input
             e.printStackTrace();
         }
     }
-}
+}*/

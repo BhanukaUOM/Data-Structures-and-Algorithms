@@ -134,6 +134,27 @@ public class input
         return ret;
     }
 
+    public long[] nextLongArray(int size) {
+        long[] ret = new long[size];
+        for (int i = 0; i < size; i++) {
+            ret[i] = nextLong();
+        }
+        return ret;
+    }
+
+    public double[] nextDoubleArray(int size) {
+        double[] ret = new double[size];
+        for (int i = 0; i < size; i++) {
+            ret[i] = nextDouble();
+        }
+        return ret;
+    }
+
+    public String[] nextStringArray() {
+        String[] ret = nextLine().split(" ");
+        return ret;
+    }
+
     public int[][] nextIntMatrix(int n, int m) {
         int[][] ret = new int[n][m];
         for (int i = 0; i < n; i++) {
@@ -148,6 +169,34 @@ public class input
         char[][] ret = new char[n][m];
         for (int i = 0; i < n; i++) {
             ret[i] = nextCharArray(m);
+        }
+        return ret;
+    }
+
+    public double[][] nextDoubleMatrix(int n, int m) {
+        double[][] ret = new double[n][m];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                ret[i][j] = nextDouble();
+            }
+        }
+        return ret;
+    }
+
+    public long[][] nextLongMatrix(int n, int m) {
+        long[][] ret = new long[n][m];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                ret[i][j] = nextLong();
+            }
+        }
+        return ret;
+    }
+
+    public String[][] nextStringMatrix(int n, int m) {
+        String[][] ret = new String[n][m];
+        for (int i = 0; i < n; i++) {
+            ret[i] = nextStringArray();
         }
         return ret;
     }

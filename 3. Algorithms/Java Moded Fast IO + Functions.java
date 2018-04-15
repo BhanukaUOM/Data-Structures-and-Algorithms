@@ -4,7 +4,7 @@ import java.util.*;
 /**
  * @author Bhanuka Rathnayaka
  */
-
+/*
 public class Main {
     static class output {
         private final PrintWriter writer;
@@ -41,7 +41,8 @@ public class Main {
  
 	public static void main(String[] args){ InputStream inputStream=System.in; OutputStream outputStream=System.out; input in=new input(inputStream); output out=new output(outputStream); Solution solver=new Solution(); solver.solve(in, out); out.close();} 
  
-	static class Solution{ private int in(int[] nums, int target){ for (int i=0; i<nums.length; i++) if(nums[i]==target) return i; return -1; } 
+	static class Solution{
+	    private int in(int[] nums, int target){ for (int i=0; i<nums.length; i++) if(nums[i]==target) return i; return -1; }
 		private int in(long[] nums, long target){ for (int i=0; i<nums.length; i++) if(nums[i]==target) return i; return -1; } 
 		private int in(char[] nums, char target){ for (int i=0; i<nums.length; i++) if(nums[i]==target) return i; return -1; } 
 		private int in(String[] nums, String target){ for (int i=0; i<nums.length; i++) if(nums[i].equals(target)) return i; return -1; } 
@@ -97,3 +98,4 @@ public class Main {
 		} 
 	} 
 }
+*/

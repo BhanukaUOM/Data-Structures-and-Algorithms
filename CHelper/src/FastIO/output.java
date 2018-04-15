@@ -41,6 +41,34 @@ public class output {
         println();
     }
 
+    public void printArray(long[] array){
+        for (int i=0; i<array.length; i++){
+            print(array[i]+" ");
+        }
+        println();
+    }
+
+    public void printArray(float[] array){
+        for (int i=0; i<array.length; i++){
+            print(array[i]+" ");
+        }
+        println();
+    }
+
+    public void printArray(double[] array){
+        for (int i=0; i<array.length; i++){
+            print(array[i]+" ");
+        }
+        println();
+    }
+
+    public void printArray(String[] array){
+        for (int i=0; i<array.length; i++){
+            print(array[i]+" ");
+        }
+        println();
+    }
+
     public void printMatrix(int[][] array){
         for (int i=0; i<array.length; i++){
             for (int j=0; j<array[0].length; j++) {
@@ -52,6 +80,46 @@ public class output {
     }
 
     public void printMatrix(char[][] array){
+        for (int i=0; i<array.length; i++){
+            for (int j=0; j<array[i].length; j++) {
+                print(array[i][j]+" ");
+            }
+            println();
+        }
+        println();
+    }
+
+    public void printMatrix(long[][] array){
+        for (int i=0; i<array.length; i++){
+            for (int j=0; j<array[i].length; j++) {
+                print(array[i][j]+" ");
+            }
+            println();
+        }
+        println();
+    }
+
+    public void printMatrix(float[][] array){
+        for (int i=0; i<array.length; i++){
+            for (int j=0; j<array[i].length; j++) {
+                print(array[i][j]+" ");
+            }
+            println();
+        }
+        println();
+    }
+
+    public void printMatrix(double[][] array){
+        for (int i=0; i<array.length; i++){
+            for (int j=0; j<array[i].length; j++) {
+                print(array[i][j]+" ");
+            }
+            println();
+        }
+        println();
+    }
+
+    public void printMatrix(String[][] array){
         for (int i=0; i<array.length; i++){
             for (int j=0; j<array[i].length; j++) {
                 print(array[i][j]+" ");
