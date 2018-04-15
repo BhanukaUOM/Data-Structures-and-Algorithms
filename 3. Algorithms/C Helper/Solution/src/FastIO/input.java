@@ -1,6 +1,5 @@
 package FastIO;
 
-
 import java.io.*;
 
 public class input
@@ -120,14 +119,6 @@ public class input
         return ret;
     }
 
-    public long[] nextLongArray(int size) {
-        long[] ret = new long[size];
-        for (int i = 0; i < size; i++) {
-            ret[i] = nextLong();
-        }
-        return ret;
-    }
-
     public char[] nextCharArray(int size) {
         char[] ret = new char[size];
         String str = nextLine();
@@ -148,16 +139,6 @@ public class input
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 ret[i][j] = nextInt();
-            }
-        }
-        return ret;
-    }
-
-    public long[][] nextLongMatrix(int n, int m) {
-        long[][] ret = new long[n][m];
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                ret[i][j] = nextLong();
             }
         }
         return ret;

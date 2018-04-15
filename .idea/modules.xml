@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/6. Graph Theory/6. Graph Theory.iml" filepath="$PROJECT_DIR$/6. Graph Theory/6. Graph Theory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CHelper/CHelper.iml" filepath="$PROJECT_DIR$/CHelper/CHelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Data-Structures-and-Algorithms.iml" filepath="$PROJECT_DIR$/Data-Structures-and-Algorithms.iml" />
+    </modules>
+  </component>
+</project>

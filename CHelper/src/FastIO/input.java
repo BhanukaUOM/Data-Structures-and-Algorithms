@@ -1,10 +1,8 @@
-/*import java.io.*;
-import java.math.*;
-import java.text.*;
-import java.util.*;
-import java.util.regex.*;
+package FastIO;
 
-class input
+import java.io.*;
+
+public class input
 {
     final private int BUFFER_SIZE = 1 << 16;
     private DataInputStream din;
@@ -18,14 +16,24 @@ class input
         bufferPointer = bytesRead = 0;
     }
 
-    public input(String file_name) throws IOException
-    {
-        din = new DataInputStream(new FileInputStream(file_name));
+    public input(InputStream inputStream){
+        din = new DataInputStream(inputStream);
         buffer = new byte[BUFFER_SIZE];
         bufferPointer = bytesRead = 0;
     }
 
-    public String readLine() throws IOException
+    public input(String file_name)
+    {
+        try {
+            din = new DataInputStream(new FileInputStream(file_name));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        buffer = new byte[BUFFER_SIZE];
+        bufferPointer = bytesRead = 0;
+    }
+
+    public String nextLine()
     {
         byte[] buf = new byte[64]; // line length
         int cnt = 0, c;
@@ -38,7 +46,7 @@ class input
         return new String(buf, 0, cnt);
     }
 
-    public int nextInt() throws IOException
+    public int nextInt()
     {
         int ret = 0;
         byte c = read();
@@ -57,7 +65,7 @@ class input
         return ret;
     }
 
-    public long nextLong() throws IOException
+    public long nextLong()
     {
         long ret = 0;
         byte c = read();
@@ -75,7 +83,7 @@ class input
         return ret;
     }
 
-    public double nextDouble() throws IOException
+    public double nextDouble()
     {
         double ret = 0, div = 1;
         byte c = read();
@@ -103,65 +111,73 @@ class input
         return ret;
     }
 
-    private void fillBuffer() throws IOException
+    public int[] nextIntArray(int size) {
+        int[] ret = new int[size];
+        for (int i = 0; i < size; i++) {
+            ret[i] = nextInt();
+        }
+        return ret;
+    }
+
+    public char[] nextCharArray(int size) {
+        char[] ret = new char[size];
+        String str = nextLine();
+        int i=0;
+        int j=0;
+        while(size>j){
+            if (str.charAt(i)!=' '){
+                ret[j]=str.charAt(i);
+                j++;
+            }
+            i++;
+        }
+        return ret;
+    }
+
+    public int[][] nextIntMatrix(int n, int m) {
+        int[][] ret = new int[n][m];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                ret[i][j] = nextInt();
+            }
+        }
+        return ret;
+    }
+
+    public char[][] nextCharMatrix(int n, int m) {
+        char[][] ret = new char[n][m];
+        for (int i = 0; i < n; i++) {
+            ret[i] = nextCharArray(m);
+        }
+        return ret;
+    }
+
+    private void fillBuffer()
     {
-        bytesRead = din.read(buffer, bufferPointer = 0, BUFFER_SIZE);
+        try {
+            bytesRead = din.read(buffer, bufferPointer = 0, BUFFER_SIZE);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         if (bytesRead == -1)
             buffer[0] = -1;
     }
 
-    private byte read() throws IOException
+    private byte read()
     {
         if (bufferPointer == bytesRead)
             fillBuffer();
         return buffer[bufferPointer++];
     }
 
-    public void close() throws IOException
+    public void close()
     {
         if (din == null)
             return;
-        din.close();
-    }
-}
-
-class output
-{
-    private final BufferedWriter bw;
-    public output()
-    {
-        this.bw=new BufferedWriter(new OutputStreamWriter(System.out));
-    }
-    public void print(Object object)throws IOException
-    {
-        bw.append(""+object);
-    }
-    public void println(Object object)throws IOException
-    {
-        print(object);
-        bw.append("\n");
-    }
-    public void close()throws IOException
-    {
-        bw.close();
-    }
-}
-
-public class Solution {
-   
-    public static void main(String[] args) throws IOException{
-        input in = new input();
-        output out = new output();
-        
-        
-        int n = in.nextInt();  
-	int t = in.nextInt(); 
-	
-        for(int i=0; i<t; i++){
-            int tmp = in.nextInt();
-            out.println(tmp);
+        try {
+            din.close();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-	out.close();
     }
 }
-*/

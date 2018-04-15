@@ -1,6 +1,5 @@
 package FastIO;
 
-
 import java.io.*;
 
 public class output {
