@@ -9,3 +9,5 @@ def pythagoreanTriplets(limits) :
                 break
             print(a, b, c) 
         m = m + 1
+
+pythagoreanTriplets(2000)

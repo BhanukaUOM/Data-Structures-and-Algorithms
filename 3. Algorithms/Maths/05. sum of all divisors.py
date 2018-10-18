@@ -1,6 +1,6 @@
 import math
 
-n = 30000
+n = 50000
 
 div_sum = [1 for i in range(n)]
 div_sum[0] = 0
