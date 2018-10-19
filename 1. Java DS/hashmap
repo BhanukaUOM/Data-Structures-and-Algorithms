@@ -1,0 +1,34 @@
+QUESTION :
+From an array given and a integer given (k) find out whether 2 different elements of the index can sum up as k. If yes then print YES else NO.
+
+SOLUTION:
+import java.io.*;
+import java.util.*;
+class name
+{
+    public static void main(String[]args)throws IOException
+    {
+        Scanner sc=new Scanner(System.in);
+        int n,k,a[],i,check=0;
+        n=sc.nextInt();
+        a=new int[n];
+        k=sc.nextInt();
+        HashMap<Integer,Integer> aa=new HashMap<Integer,Integer>();
+        for(i=0;i<n;i++)
+        {
+            a[i]=sc.nextInt();
+            aa.put(a[i],i);    //entering the values in the hashmap
+        }
+        for(i=0;i<n;i++)
+        {
+        int b=k-a[i];     //to check for the next index element
+        if(aa.containsKey(b)&&aa.get(b)!=i)
+        {
+         System.out.println("YES");
+         check=1;
+         break;
+        }}
+        if(check==0)
+        System.out.println("NO");
+        
+    }
