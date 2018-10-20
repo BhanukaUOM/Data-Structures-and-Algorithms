@@ -1,30 +1,33 @@
-import java.io.InputStreamReader;
-import java.io.BufferedReader;
 import java.util.Arrays;
-
+import java.util.Scanner;
 
 public class InsertionSort {
-    void insertion_Sort(int A[], int n){
-    for(int i = 0;i<n;i++){
-    int temp = A[i];
-    int j =i;
-   
-    while(j>0 && temp<A[j-1]){
-    A[j] = A[j-1];
-    j = j-1;
+
+   static void insertion_Sort(int a[]){
+	int temp, j;
+        for(int i = 0; i < a.length; i++){
+            temp = a[i];
+	    j = i;
+            while(j > 0 && temp < a[j-1]){
+		a[j] = a[j-1];
+		j = j-1;
+	    }
+	    a[j] = temp;
+        }
     }
-    A[j] = temp;
-    }
-    }
+    
     public static void main(String[] args) throws Exception{
-    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    int N = Integer.parseInt(br.readLine());
-    int[] A = new int[N];
-    for(int i = 0;i<N;i++){
-    A[i] = Integer.parseInt(br.readLine());
-    }
-InsertionSort b = new InsertionSort();
-    b.insertion_Sort(A, N);
-    System.out.print(Arrays.toString(A));
+        Scanner in = new Scanner(System.in);
+	int array [], n;
+
+	System.out.println("How many sloats: ");
+	n = in.nextInt();
+	array = new int[n];
+        for(int i = 0; i < n; i++){
+	    System.out.print(i + 1 + ": ");
+	    array[i] = in.nextInt();
+        }
+        insertion_Sort(array);
+        System.out.print(Arrays.toString(array));
     }
 }
