@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d70b6645-49eb-4ca0-915d-0588df50e8f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/1. Java DS/BinaryHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1. Java DS/DynamicArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_algorithms/binary_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_algorithms/heap_sort/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_algorithms/heap_sort/heap_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_algorithms/insertion_sort/insertion_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_algorithms/merge_sort/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_algorithms/merge_sort/merge_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_algorithms/quick_sort/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_algorithms/quick_sort/quick_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_algorithms/selection_sort/selection_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_algorithms/shell_sort/shell_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_algorithms/union_find.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_data_structures/array_queue/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_data_structures/array_queue/array_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_data_structures/array_stack/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_data_structures/array_stack/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_data_structures/binary_heap/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_data_structures/binary_heap/binary_heap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_data_structures/bst/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_data_structures/bst/bst.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_data_structures/bst/node.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_data_structures/linked_list/Node.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_data_structures/linked_list/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_data_structures/linked_list/linked_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_data_structures/linked_queue/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_data_structures/linked_queue/queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_data_structures/linked_stack/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_data_structures/linked_stack/linked_stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_data_structures/node.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting algorithms/Dijkstra3WayPartitioning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting algorithms/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting algorithms/KnuthShuffle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting algorithms/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting algorithms/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting algorithms/ShellSort.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1716700449">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="22" />
+          <entry key="py" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="22" />
+          <entry key="PLAIN_TEXT" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="667" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="667" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python_algorithms/heap_sort/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/1. Java DS/BinaryHeap.java" />
+        <option value="$PROJECT_DIR$/1. Java DS/1. Arrays.java" />
+        <option value="$PROJECT_DIR$/1. Java DS/DynamicArray.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="585" />
+    <option name="width" value="1290" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Data-Structures-and-Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data-Structures-and-Algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540069494621" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../javapractice" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programming\java-projects\Data-Structures-and-Algorithms\python_algorithms" />
+      <recent name="D:\programming\java-projects\Data-Structures-and-Algorithms\python_data_structures" />
+      <recent name="D:\programming\java-projects\Data-Structures-and-Algorithms\sorting algorithms" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="BinaryHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryHeap" />
+      <module name="Data-Structures-and-Algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BinaryHeap" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d70b6645-49eb-4ca0-915d-0588df50e8f5" name="Default Changelist" comment="" />
+      <created>1540068411400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540068411400</updated>
+      <workItem from="1540068412510" duration="1101000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1101000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32907802" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sorting algorithms/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1. Java DS/7. Graph(BFS).java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1. Java DS/1. Binary Search.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1. Java DS/2. Stack.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1. Java DS/3. Queue.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1. Java DS/5. Linked List.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1. Java DS/6. Binary Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4. LinkedList/2. Insert Node to Head.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1. Java DS/BinaryHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1. Java DS/1. Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1. Java DS/DynamicArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1. Java DS/4. Priority Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting algorithms/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting algorithms/Dijkstra3WayPartitioning.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5. Trees/2. Tree Traversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-431" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5. Trees/1. BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_data_structures/array_queue/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_data_structures/array_queue/array_queue.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_data_structures/array_stack/stack.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_data_structures/bst/bst.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1948" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_data_structures/bst/node.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_algorithms/heap_sort/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
